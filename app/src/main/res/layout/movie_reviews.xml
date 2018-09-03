@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/white"/>
+
+    <TextView
+        android:id="@+id/tv_review_author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/silver"
+        android:ellipsize="end"
+        android:gravity="start"
+        android:lineSpacingExtra="@dimen/lineSpace"
+        android:maxLines="1"
+        android:paddingEnd="@dimen/margin_padding"
+        android:paddingStart="@dimen/margin_padding"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/black"
+        android:textStyle="bold|normal"
+        tools:text="Aparna"/>
+
+    <TextView
+        android:id="@+id/tv_review_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:lineSpacingExtra="@dimen/lineSpace"
+        android:paddingBottom="@dimen/margin_padding_2x"
+        android:paddingTop="@dimen/margin_padding_2x"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        tools:text="good movie"/>
+
+</LinearLayout>

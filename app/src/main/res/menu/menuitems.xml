@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.aparn.movieapp.MainActivity">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/action_sort_most_popular"
+            android:orderInCategory="100"
+            android:title="@string/mostpopular_sort"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/action_sort_top_rated"
+            android:orderInCategory="100"
+            android:title="@string/toprated_sort"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/action_favorite"
+            android:orderInCategory="100"
+            android:title="@string/Favorite"
+            app:showAsAction="never" />
+
+    </group>
+</menu>

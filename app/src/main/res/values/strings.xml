@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+    <string name="mostpopular_sort">Most Popular</string>
+    <string name="toprated_sort">Top Rated</string>
+    <string name="movie_poster_content">Place holder for image content</string>
+    <string name="user_rating">User Rating</string>
+    <string name="release_date">Release Date</string>
+    <string name="plot_synopsis">Plot Synopsis</string>
+    <string name="poster_of_the_movie">Poster of the movie</string>
+    <string name="Favorite">Favorite</string>
+    <string name="review_label">Reviews</string>
+    <string name="key_review">reviews</string>
+    <string name="key_trailer">videos</string>
+    <string name="trailer_label">Trailers</string>
+    <string name="trailer_content_description">Youtube video content</string>
+    <string name="remove_from_favorite">Remove from Favorite</string>
+    <string name="trailers_errormsg">Trailers not available!!!</string>
+    <string name="reviews_errormsg">Reviews not available!!!</string>
+
+</resources>

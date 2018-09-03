@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/trailer_image_height"
+    android:padding="2dp"
+    android:layout_weight="1"
+    android:adjustViewBounds="true">
+
+    <ImageView
+        android:id="@+id/iv_trailer_youtube"
+        android:layout_width="@dimen/trailer_image_width"
+        android:layout_height="@dimen/trailer_image_height"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/trailer_content_description"/>
+
+    <ImageView
+        android:id="@+id/trailer_play_video_imageview"
+        android:contentDescription="@string/trailer_content_description"
+        android:layout_width="@dimen/padding_2x"
+        android:layout_height="@dimen/padding_4x"
+        android:layout_marginBottom="@dimen/playvideo_image_marginBottom"
+        android:layout_marginStart="@dimen/playvideo_image_marginLeft"
+        android:layout_marginEnd="@dimen/playvideo_image_marginRight"
+        android:layout_marginTop="@dimen/playvideo_image_marginTop"
+        android:alpha="0.7"
+        android:scaleType="fitCenter"
+        android:tint="@color/white"
+        app:srcCompat="@drawable/ic_play_circle_filled_black_24dp"/>
+
+</RelativeLayout>

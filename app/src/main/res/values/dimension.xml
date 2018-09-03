@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_padding">4dp</dimen>
+    <dimen name="margin_padding_2x">8dp</dimen>
+    <dimen name="padding">16sp</dimen>
+    <dimen name="text_padding">20sp</dimen>
+    <dimen name="RecycleView_top_padding">60dp</dimen>
+    <dimen name="padding_2x">32dp</dimen>
+    <dimen name="padding_4x">64dp</dimen>
+    <dimen name="lineSpace">4sp</dimen>
+    <dimen name="image_poster_width">160dp</dimen>
+    <dimen name="image_poster_height">350dp</dimen>
+    <dimen name="image_poster_landwidth">400dp</dimen>
+    <dimen name="image_poster_landheight">350dp</dimen>
+    <dimen name="trailer_image_height">200dp</dimen>
+    <dimen name="trailer_image_width">400dp</dimen>
+    <dimen name="playvideo_image_marginBottom">140dp</dimen>
+    <dimen name="playvideo_image_marginTop">80dp</dimen>
+    <dimen name="playvideo_image_marginLeft">150dp</dimen>
+    <dimen name="playvideo_image_marginRight">150dp</dimen>
+</resources>
